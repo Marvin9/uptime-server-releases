@@ -1,0 +1,16 @@
+name: RELEASE
+
+on:
+    push:
+        branches: [master]
+        paths:
+            - 'README.md'
+
+jobs:
+    deploy:
+        name: Uptime-server deploy
+        runs-on: ubuntu-latest
+        steps:
+            - uses: actions/checkout@v2
+            - uses: actions/setup-node@v1
+            - run: bash ./auto-deploy.sh ${{ secrets.HEROKU_TOKEN }} ${{ secrets.REPO_ACCESS_TOKEN }} mayursiinh@gmail.com
