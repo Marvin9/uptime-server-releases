@@ -5,6 +5,12 @@
 
 #### [https://uptime-server-service.herokuapp.com/](https://uptime-server-service.herokuapp.com/)
 
+### v - 1.0.2
+
+- UI Updates
+  - Show authentication error reason.
+  - Do not accept invalid URL.
+
 ### v - 1.0.1
 
 - UI Updates
