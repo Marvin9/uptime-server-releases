@@ -5,6 +5,14 @@
 
 #### [https://uptime-server-service.herokuapp.com/](https://uptime-server-service.herokuapp.com/)
 
+### v - 1.0.3
+
+- Fix
+  - Loader not stopped even after success.
+  
+- UI Updates
+  - Refresh button to fetch latest reports.
+
 ### v - 1.0.2
 
 - UI Updates
