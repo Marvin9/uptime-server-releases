@@ -5,6 +5,12 @@
 
 #### [https://uptime-server-service.herokuapp.com/](https://uptime-server-service.herokuapp.com/)
 
+### v - 1.0.4
+
+- Fix
+	- Avoid crashing server on panicking in http request.
+
+
 ### v - 1.0.3
 
 - Fix
