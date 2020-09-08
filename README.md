@@ -5,6 +5,11 @@
 
 #### [https://uptime-server-service.herokuapp.com/](https://uptime-server-service.herokuapp.com/)
 
+### v - 1.0.5
+
+- Fix
+	- JWT Expire time was based on static variable. Wrapped it inside function.
+
 ### v - 1.0.4
 
 - Fix
